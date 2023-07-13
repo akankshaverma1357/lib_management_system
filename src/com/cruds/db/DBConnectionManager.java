@@ -21,7 +21,7 @@ public class DBConnectionManager {
 		
 		Connection conn = null;
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "lrkaushal");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/bookdb", "root", "root");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
